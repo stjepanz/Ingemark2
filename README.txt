@@ -9,7 +9,7 @@
 
 5. Napravljen je security. Pri pokretanju aplikacije se stvaraju role i user: ingemark@mail.hr/ingemark sa ADMIN rolom.
 
-6. JWT token se dohvaca slanjem AuthenticationRequest (Swagger) na endpoint "/token". Token se salje u polju "Authorization" u headeru.
+6. JWT token se dohvaca slanjem AuthenticationRequest (Swagger) na endpoint "/token" (POST). Token se salje u polju "Authorization" u headeru.
 
 Staviti ovo u body:
 {
